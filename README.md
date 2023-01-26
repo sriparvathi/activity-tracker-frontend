@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Introduction:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The MERN Activity tracker is a clone of the exercise-tracker project from free code camp.org.
+Having an activity tracker app is very useful in this busy world. 
+Using this, we could schedule physical activity time and keep track of it on a daily basis.
 
-## Available Scripts
+## MERN-Activity-Tracker
+![activity tracker 1](https://user-images.githubusercontent.com/105339225/214760263-5416d69c-e597-426c-8cda-4a4d41b4a6c8.png)
+![activity 2 img](https://user-images.githubusercontent.com/105339225/214760274-fd2483eb-3ba6-4a85-accf-4f49d3ef78db.png)
+![activity3 img](https://user-images.githubusercontent.com/105339225/214760284-9909f5ae-ad59-4a91-b9ee-694dcf8f2819.png)
 
-In the project directory, you can run:
+## Technologies Used:
 
-### `npm start`
+**M**-MongoDB Atlas - A document-based open source database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**E**-Express.js- Routing, processing HTTP requests using middleware, render dynamic templates using view engine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**R**-React.js- front-end javaScript library capable of making an API calls.
 
-### `npm test`
+**N**-Node.js-Node.js is a JavaScript-based framework recognized for its ability to work both as a frontend and backend development environment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started:
+* Clone the repository: git clone (https://github.com/sriparvathi/activity-tracker-frontend.git).
+* Install dependencies: npm install.
+* Create a .env file in the root directory and add your MongoDB connection string as the value for MONGO_URI.
+* Start the development server: npm run dev.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Unsolved Problems:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Able to develop into a full-featured web app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Future Enhancements:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* User Authentication.
+* More interactive CSS Features.
+* I have a plan to develop a diet vs exercise plan.
+* Add a Food recipe API that displays calories for every meal the user eats. 
+* Build a logic that calculates the calories of user diet and suggest the activity and the duration time.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I would like to acknowledge and thank Gary, Vogue, and Cody Smith for their remarkable help with my projects. I am grateful to my classmates who were always helpful to me during this training. My special thanks are due to my trainers Tishana and Kasper for their guidance, kindness, and support.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Resources
 
-## Learn More
+* freeCodeCamp.org
+* Web Dev Simplified - Youtube channel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
