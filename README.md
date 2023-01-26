@@ -30,9 +30,6 @@ Using this, we could schedule physical activity time and keep track of it on a d
 
 * Able to develop into a full-featured web app.
 
-##Link to Render(https://activity-tracker-wtgo.onrender.com)
-
-
 # Future Enhancements:
 
 * User Authentication.
@@ -50,5 +47,6 @@ I would like to acknowledge and thank Gary, Vogue, and Cody Smith for their rema
 * freeCodeCamp.org
 * Web Dev Simplified - Youtube channel
 
+##Link to Render(https://activity-tracker-wtgo.onrender.com)
 
 
